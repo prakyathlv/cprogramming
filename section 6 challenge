@@ -1,0 +1,31 @@
+#imclude<iostream>
+using namespace std;
+int main()
+{
+    cout<<"hello,welcome to frank's carpet cleaning service"<<endl;
+    cout<<endl;
+    cout<<"how many small rooms would you like to be cleaned:"<<endl;
+    int small_rooms{0};
+    cin<<small_rooms;
+    cout<<"how many large rooms would uou like to be cleaned:"<<endl;
+    int large_rooms{0};
+    cin<<large rooms;
+    cout<<"estimate for carpet cleaning service:"<<endl;
+    cout<<"number of small room:"<<small_rooms<<endl;
+    cout<<"number of large room:"<<large_rooms<<endl;
+    const double price_per_small_room{25};
+    const double price_per_large_room{35};
+    const double sales_tax{0.06};
+    const double estimate_time{30};
+    cout<<"price per small room:$"<<price_per_small_room<<endl;
+    cout<<"price per large room:$"<<price_per_large_room<<end;
+    cout<<"cost:$"<<(small_rooms*price_per_small_room)+(large_rooms*price_per_large_room)<<endl;
+    cout<<"tax:$"<<((small_rooms*price_per_small_room)+(large_rooms*price_per_large_room))*0.06<<endl;
+    cout<<"=============================";
+    cout<<"total estimate:$"<<((small_rooms*price_per_small_room)+(large_rooms*price_per_large_room)+((small_rooms*price_per_small_room)+(large_rooms*price_per_large_room))*0.06)<<endl;
+    cout<<"this estimate is valide for:"<<estimate_time<<"days"<<endl;
+    co<<endl<<endl;
+    return 0;
+}
+    
+    
